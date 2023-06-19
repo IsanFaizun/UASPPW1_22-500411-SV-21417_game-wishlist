@@ -137,20 +137,20 @@
       <div class="col mt-2">
         <h5 id="anima2">Trending</h5>
         <table id="anima2" class="table" style="color: white;">
-        <?php
-          $select_trend = mysqli_query($conn, "SELECT * FROM `trending`");
-          if(mysqli_num_rows($select_trend) > 0){
-            while($fetch_trend = mysqli_fetch_assoc($select_trend)){
-        ?>
           <tbody>
             <tr>
+              <?php
+                $select_trend = mysqli_query($conn, "SELECT * FROM `trending`");
+                if(mysqli_num_rows($select_trend) > 0){
+                while($fetch_trend = mysqli_fetch_assoc($select_trend)){
+              ?>
               <form method="post">
               <th><?php echo $fetch_trend['id']; ?></th>
               <td><img src="<?php echo $fetch_trend['img']; ?>" height="30" width="50"></td>
               <td><p><?php echo $fetch_trend['name']; ?></p></td>
-              <td><input type="hidden" name="trend_id" value="<?php echo $fetch_trend['id']; ?>"></td>
-              <td><input type="hidden" name="trend_image" value="<?php echo $fetch_trend['img']; ?>"></td>
-              <td><input type="hidden" name="trend_name" value="<?php echo $fetch_trend['name']; ?>"></td>
+              <input type="hidden" name="trend_id" value="<?php echo $fetch_trend['id']; ?>">
+              <input type="hidden" name="trend_image" value="<?php echo $fetch_trend['img']; ?>">
+              <input type="hidden" name="trend_name" value="<?php echo $fetch_trend['name']; ?>">
               <td><input type="submit" class="btn btn-dark" value="add to wishlist" name="add_wt"></td>
               </form>
             </tr>
