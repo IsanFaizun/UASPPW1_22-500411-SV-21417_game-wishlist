@@ -46,8 +46,8 @@
       }
       @media (max-width: 690px) {
         .carousel-item {
-          max-width: 1920px;
-          max-height: 1080px;
+          max-width: 100%;
+          max-height: 100%;
         }
       }
       @media (max-width: 375px) {
@@ -95,7 +95,7 @@
   <!-- Carousel -->
   <div class="container-fluid">
     <div class="row mt-3">
-      <div class="col" id="anima1">
+      <div class="col-sm" id="anima1">
         <h3>Featured</h3>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators">
