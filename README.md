@@ -17,6 +17,7 @@ Project ini dikerjakan dengan bahasa HTML, CSS, Javascript, dan PHP-MySQL. Proje
 ## Requirement
 
 1. Desain yang rapi mengikuti prinsip desain
+
 Website ini sudah mengikuti prinsip desain dan menggunakan 3 warna dasar yaitu biru, hitam, dan putih. Warna hitam dan putih digunakan untuk komponen penting pada website seperti navbar, footer, form, button, dan sebagainya sedangkan warna biru untuk background website. Warna hitam di sini merupakan warna dark bawaan dari Bootstrap. Contohnya:
 ```html
 <button class="btn btn-dark" type="button"><b>JOIN</b></button>
@@ -33,6 +34,7 @@ body {
 Adapun 2 warna tambahan yakni merah (warna danger dari Bootstrap) dan grey.
 
 2. Website responsive
+
 Proyek ini menggunakan Bootstrap untuk mempermudah dalam membuat website yang responsif. Cara akses ke dalam Bootstrap adalah dengan CDN via JSDelivr. Berikut adalah kodenya:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -72,6 +74,7 @@ Terdapat banyak komponen yang diambil dari Bootstrap seperti navbar, footer, car
 Navbar di atas menggunakan 5 class. Class navbar digunakan untuk mendefinisikan navbar dari Bootstrap. Kemudian, class navbar-dark dan bg-dark digunakan untuk membuat navbar menjadi hitam dengan tulisannya yang komplementer yaitu putih. Lalu, navbar-expand-sm digunakan untuk membuat menu-menu dibungkus ke dalam toggle pada ukuran 576px (ukuran handphone). Adapun kelas tambahan yakni fixed-top untuk membuat navbar selalu di atas layar.
 
 3. Direct Feedback
+
 Terdapat 6 direct feedback pada website ini yaitu join (untuk memberikan pemberitahuan jika user sudah ikut ke komunitas), donate (untuk memberitahu user setelah melakukan donasi), add to wishlist (memberitahu user jika user berhasil memasukkan item ke dalam wishlist), remove (memberi konfirmasi terhadap user yang ingin mengahapus 1 item dari wishlist), delete all (memberi konfirmasi terhadap user yang ingin mengahapus semua item dari wishlist), dan submit(memberikan feedback ketika user ingin melakukan laporan dari menu contact).
 Berikut adalah salah satu contoh direct feedback yaitu join:
 
@@ -86,6 +89,7 @@ Ini adalah kode yang digunakan untuk memasukkan function join ke html
 <button class="btn btn-dark" onclick="join()" type="button"><b>JOIN</b></button>
 ```
 4. Konten Dinamis
+
 Website ini menggunakan PHP dan MySQL untuk membuatnya menjadi dinamis. Kemudian, terdapat 3 tabel yang digunakan yaitu trending, games, dan wishlist. Trending digunakan pada page home, games untuk page games, dan wishlist untuk page wishlist. Hal yang pertama untuk membuat web dinamis adalah mengkoneksikannya ke dalam database. Berikut adalah kode untuk mengkoneksikan web ke database dengan server lokal via PHP dengan mysqli_connect:
 ```php
 <?php
