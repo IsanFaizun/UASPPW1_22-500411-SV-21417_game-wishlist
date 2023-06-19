@@ -11,7 +11,7 @@ function send(){
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var text = document.getElementById("text").value;
-    if (name === "" || email === "" || text === "") {
+    if (name == "" || email == "" || text == "") {
         alert("Please fill in the available columns before submitting");
     } else {
         var outputText =
