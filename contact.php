@@ -9,25 +9,25 @@
     <title>Game Site</title>
     <style>
       body {
-        background: grey;
+        background: rgb(0,11,70);
+        background: linear-gradient(180deg, rgba(0,11,70,1) 0%, rgba(18,116,167,0.4543067226890757) 100%);
         color: white;
-        margin-bottom: 0;
       }
       textarea {
         resize: none;
       }
       .form-control {
-        background-color: rgb(107, 107, 107);
+        background-color: black;
         color: white;
       }
       .form-control:focus {
-        background-color: rgb(93, 93, 93);
+        background-color: black;
         color: white;
         border-color: white;
         box-shadow: 0 0 5px white;
       }
       .form-control::placeholder {
-        color: white;
+        color: grey;
       }
       .anima1 {
         animation: fade-down 1s;
@@ -94,11 +94,12 @@
             <label class="form-label">What is your problem</label>
             <textarea id="text" class="form-control" placeholder="Write your problem here" rows="5"></textarea>
         </div>
-        <button type="submit" onclick="send()" class="btn btn-dark mb-5">Submit</button>
-        <p id="output" class="fs-5"></p>
+        <button type="submit" onclick="send()" class="btn btn-dark mb-5">Submit</button><br>
+        <b id="output" style="color: black;" class="fs-5"></b>
       </div>
     </div>
   </div>
+  <br>
   <!-- Footer -->
   <div class="d-flex px-3 py-4 bg-dark">
     <div class="flex-grow-1 p-2">

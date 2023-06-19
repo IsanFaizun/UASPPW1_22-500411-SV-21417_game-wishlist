@@ -122,6 +122,7 @@
 
         </div>
     </div>
+    <br>
     <!-- Footer -->
     <div class="d-flex px-3 py-4 bg-dark">
      <div class="flex-grow-1 p-2">
