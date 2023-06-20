@@ -17,6 +17,8 @@ Project ini dikerjakan dengan bahasa HTML, CSS, Javascript, dan PHP-MySQL. Proje
 ## Requirement
 
 1. Desain yang rapi mengikuti prinsip desain
+    ![image](https://github.com/IsanFaizun/UASPPW1_22-500411-SV-21417_game-wishlist/assets/113765539/242472e8-e446-4fa2-ac82-a86eeff744d5)
+
 
 Website ini sudah mengikuti prinsip desain dan menggunakan 3 warna dasar yaitu biru, hitam, dan putih. Warna hitam dan putih digunakan untuk komponen penting pada website seperti navbar, footer, form, button, dan sebagainya sedangkan warna biru untuk background website. Warna hitam di sini merupakan warna dark bawaan dari Bootstrap. Contohnya:
 ```html
@@ -72,6 +74,10 @@ Terdapat banyak komponen yang diambil dari Bootstrap seperti navbar, footer, car
 </nav>
 ```
 Navbar di atas menggunakan 5 class. Class navbar digunakan untuk mendefinisikan navbar dari Bootstrap. Kemudian, class navbar-dark dan bg-dark digunakan untuk membuat navbar menjadi hitam dengan tulisannya yang komplementer yaitu putih. Lalu, navbar-expand-sm digunakan untuk membuat menu-menu dibungkus ke dalam toggle pada ukuran 576px (ukuran handphone). Adapun kelas tambahan yakni fixed-top untuk membuat navbar selalu di atas layar.
+
+Untuk tampilan paling kecil, projek ini bisa sampai pada maksimal width 375px untuk lebar paling kecil. Berikut adalah tampilan dari 375px:
+![image](https://github.com/IsanFaizun/UASPPW1_22-500411-SV-21417_game-wishlist/assets/113765539/6a10805b-a9d9-470f-8879-01fa297a9063)
+
 
 3. Direct Feedback
 
