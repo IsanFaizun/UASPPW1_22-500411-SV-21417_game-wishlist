@@ -1,11 +1,7 @@
 
-# Game Wishlist
-Nama : Isan Faizun Hidar
-
-NIM : 22/500411/SV/21417
-
+# Gamesite
 ## Penjelasan Web Secara Umum
-Game Wishlist merupakan proyek web sederhana yang secara umum digunakan untuk memindahkan game ke dalam wishlist. Wishlist adalah sebuah list yang berfungsi untuk menandai suatu item (dalam hal ini game) sebelum ingin membeli. Biasanya digunakan oleh website game store seperti Steam, Epic Games, dan lain-lain.
+Gamesite merupakan proyek web sederhana yang secara umum digunakan untuk memindahkan game ke dalam wishlist. Wishlist adalah sebuah list yang berfungsi untuk menandai suatu item (dalam hal ini game) sebelum ingin membeli. Biasanya digunakan oleh website game store seperti Steam, Epic Games, dan lain-lain.
 
 Project ini dikerjakan dengan bahasa HTML, CSS, Javascript, dan PHP-MySQL. Project ini menggunakan Bootstrap sebagai frameworknya.
 
